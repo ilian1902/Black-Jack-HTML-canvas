@@ -1,0 +1,49 @@
+body {
+    background-color: #4D0907;
+}
+
+img {
+    display: none;
+}
+
+canvas {
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #000;
+    font-size: 3em;
+}
+
+#menu {
+    position: relative;
+}
+ 
+#hit {
+    position: absolute;
+    margin-top: 22%;
+    margin-left: 40%;
+    width:8%;
+    z-index: 2;
+}
+
+#game-container {
+    margin: 60px;
+    position: relative;
+} 
+
+#game-container .black-jack-canvas {
+    position: absolute;
+    width: 100%;
+}
+
+#black-jack {
+    z-index: 1;
+}
+
+
+
+
+
